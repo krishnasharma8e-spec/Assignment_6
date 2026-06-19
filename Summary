@@ -1,0 +1,6 @@
+The dataset contained daily sales records and no major missing values.
+The date column was converted into datetime format and additional features such as year, month, day, and day of week were extracted.
+Linear Regression was used for sales forecasting.
+Model performance was evaluated using MAE, RMSE, and R² score.
+The model was able to generate future sales predictions, but the evaluation metrics indicated that simple linear regression may not fully capture complex sales patterns and seasonality.
+Advanced forecasting techniques like ARIMA, SARIMA, or Prophet could improve prediction accuracy.
